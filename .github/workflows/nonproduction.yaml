@@ -23,7 +23,6 @@ jobs:
         with:
           node-version: 14
       - name: build site
-        uses: actions/setup-node@v2
         run: |
           npm cl
           npm run build
